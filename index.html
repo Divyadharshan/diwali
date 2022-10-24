@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Happy Diwali</title>
+</head>
+
+<body style="background-color:yellow;">
+<div style="text-align:center">
+<h2 style="color:red">Enter your sweet name :<br> <input
+type="Button" value="CLICK ME" onclick="diwali()"> 
+</h2>
+</div>
+
+<script>
+function diwali() {
+var name=prompt("What's your name ?");
+if(name=="") {
+         alert("Enter your Name to Continue!!");
+ } 
+else {
+document.write("<h2 style='color:yellow'>Hi, ",name," &hearts;</h3>");
+document.write("<body bgcolor='green'><h3><marquee style='color:red'>Happy Diwali, ",name," and Family.......</marquee></h3><br><div style='text-align:center'><img src='https://asset.holidaycardsapp.com/assets/card/20201029_diwali8-0af2c9bb6988be46959d18a3fe9fefc05ae25e165ff774e54dfa4bd87297da1b.png' width=400 height=500 title='Diwali Wishes'></div><h3 style='color:red'><div style='text-align: right'>- Wishes from Divya Dharshan S</div></body>");
+}
+}
+</script>
+</body>
+
+</html>
